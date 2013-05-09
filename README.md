@@ -3,10 +3,10 @@ syncabl.es
 
 Syncabl.es is the official name of the project - deciding on that was a LOT harder than writing the code.
 
-This Repository is a placeholder for the time being... My plan is to  consolidate the code into this repository
-over the next few days.  
+This Repository is a placeholder for the time being... The plan is to consolidate the code from several 
+other repositories into this repository over the next few days.  
 
 We use HubBoard.com to manage issue snd drive the project.  
 
-Here's a link: http://huboard.com/CreativelyMe/syncabl.es
+Here's a link: http://huboard.com/CreativelyMe/syncabl.es/board
 
