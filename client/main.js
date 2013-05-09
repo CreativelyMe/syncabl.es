@@ -13,9 +13,10 @@ Template.graphs_page.has_graphs = function(){
 Template.graphs_page.graphs = function(){
     return GraphsModel.find({});
 }
+
 Template.graphs_page.events({
     'click #new_graph' : function(){
-        Grapher.Graphs.create("New Graph (double click to rename)", Meteor.userId());
+        Grapher.Graphs.create("New Diagram (double click to rename)", Meteor.userId());
     },
     'dblclick .graph_title' : function(){
         var new_name = prompt("Please enter the new name:", this.name);
@@ -39,6 +40,7 @@ Template.nodes_page.graph_name = function(){
     var graph = Session.get("current_graph");
     return graph.name;
 }
+
 Template.nodes_page.events({
     'click #new_node' : function(){
         var graph = Session.get("current_graph");
