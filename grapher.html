@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    {{> syncables}}
+    {{> grapher}}
     
     
     
@@ -40,7 +40,7 @@
     
 </body>
 
-<template name="syncables">
+<template name="grapher">
     {{#if logged_in}}
         {{#if graph_selected}}
             {{> nodes_page}}
